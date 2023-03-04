@@ -35,6 +35,8 @@ public Trinagolo(float base, float altezza) {
 	this.base = base;
 	this.altezza = altezza;
 }
-
+	public float areaTriangolo() {
+		return base*altezza;
+	}
 
 }
